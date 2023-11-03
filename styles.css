@@ -1,5 +1,8 @@
 body{
     background-image: url("imgs/bg.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .icon{
@@ -15,11 +18,11 @@ body{
     padding: 10px;
 }
 
-h2{
+.card__header{
     border-bottom: 1px black solid;
 }
 
-.header{
+.card__img_header{
     margin: auto;
     margin-top: -5em;
 
@@ -36,4 +39,10 @@ h2{
 
 .img{
     width: 100%;
+}
+
+.tab{
+    display: inline-block;
+
+    margin-left: 20px;
 }
