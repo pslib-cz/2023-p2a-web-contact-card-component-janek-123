@@ -1,3 +1,23 @@
+html{
+    background-image: var();
+}
+
 .card{
+    width: 33%;
+}
+
+.header{
+    border-bottom: 1px black solid;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
     
+    border-radius: 50%;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 10px;
 }
