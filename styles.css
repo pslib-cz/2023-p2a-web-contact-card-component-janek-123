@@ -18,12 +18,13 @@ body{
 }
 
 .card{
-    display: inline-block;
-
     margin-top: 6em;
 
     background-color: white;
-    width: 250px;
+
+    min-width: 280px;
+
+    box-shadow: 0 0 10px grey;
 }
 
 .card__body{
@@ -63,4 +64,11 @@ body{
     display: inline-block;
 
     margin-left: 20px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 1em;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
